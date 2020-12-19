@@ -1,0 +1,33 @@
+<!-- Main page ver 1.2 
+	user can register on this page
+	 updates: added css file design 
+	 changed layout
+--> 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register</title>
+  <link rel="stylesheet" href="registration-page.css">
+</head>
+
+<body>
+  <div id="main-holder">
+    <h1 id="login-header">Register</h1>
+    <form id="login-form" action="registerHandler.php" method="post">
+      <input type="text" name="firstName" id="firstname-field" class="login-form-field" placeholder="First Name">
+      <input type="text" name="userName" id="lastname-field" class="login-form-field" placeholder="Last Name">
+      <input type="text" name="emailInput" id="emailInput-field" class="login-form-field" placeholder="Email">
+      <input type="text" name="userName" id="username-field" class="login-form-field" placeholder="Username">
+      <input type="password" name="passwordInput" id="password-field" class="login-form-field" placeholder="Password">
+      <input type="submit" value="Register" id="login-form-submit">
+    </form>
+  <a href = "index.html">Main Menu</a>
+  <p>Your password has to be less then 50 charachters long</p>
+  <p>Already have an account? <a href = "login.html"> Log In </a></p>
+  </div>
+</body>
+
+</html>

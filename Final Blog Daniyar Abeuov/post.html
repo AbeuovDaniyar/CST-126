@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>POST</title>
+  <link rel="stylesheet" href="adminPage.css">
+</head>
+
+<body>
+  <div id="main-holder">
+  <div class="topnav">
+  <a  href = "index.html">Home</a>
+  <a class="active" href="post.html">Add post</a>
+  <a href = "viewAllPosts.php">View Posts</a>
+  <a href = "login.html">Log In</a>
+  <a href = "register.html">Register</a>
+  <a href = "admin.php">Admin Page</a>
+  </div>
+  <h1>BLOG</h1>
+  
+  <form action="addPost.php" method="get">  
+     <label for="games">Choose your game category: </label>
+  <input list="games_category" name="games" id="games">
+  <datalist id="games_category">
+    	<option value="Black Desert Online">Black Desert Online</option>
+    	<option value="Cyberpunk">Cyberpunk</option>
+      	<option value="COD">COD</option>
+    	<option value="Overwatch">Overwatch</option>
+    	<option value="Among us">Among us</option>
+  </datalist><br>
+  
+  	<div class="post-title">
+    <input type="text" name="postTitle" id="postTitle-field" placeholder="Post Title">
+    </div><br>
+    
+	<textarea id="post-Desc-field" name="postDesc" rows="20" cols="90">
+     </textarea>
+    <div class="button">
+      <input type="submit" value="Post" id="button-form-submit">
+    </div>
+    </form>
+    <br><br>
+  </div>
+</body>
+
+</html>

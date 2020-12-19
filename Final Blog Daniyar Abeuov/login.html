@@ -1,0 +1,29 @@
+<!-- Login page ver 1.2 
+	user can log in on this page
+	 updates: added css file design 
+	 changed layout
+--> 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="login-page.css">
+</head>
+
+<body>
+  <div id="main-holder">
+    <h1 id="login-header">Login</h1> 
+    <form id="login-form" action="loginHandler.php" method="post">
+      <input type="text" name="userName" id="username-field" class="login-form-field" placeholder="Username">
+      <input type="password" name="passwordInput" id="password-field" class="login-form-field" placeholder="Password">
+      <input type="submit" value="Login" id="login-form-submit"><br><br>
+      <a href = "index.html">Main Menu</a>
+      <a href = "register.html">Register</a>
+    </form>
+  </div>
+</body>
+
+</html>

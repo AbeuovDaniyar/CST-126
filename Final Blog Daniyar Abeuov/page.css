@@ -1,0 +1,153 @@
+/*
+css design code
+reference code https://medium.com/swlh/how-to-create-your-first-login-page-with-html-css-and-javascript-602dd71144f1
+*/
+@CHARSET "ISO-8859-1";
+html {
+  height: auto;
+}
+
+body {
+  height: auto;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  background-color: #3a3a3a;
+}
+
+#main-holder {
+  width: 50%;
+  height: auto;
+  display: grid;
+  justify-items: left;
+  align-items: left;
+  background-color: white;
+  border-radius: 7px;
+  box-shadow: 0px 0px 5px 2px black;
+}
+
+/*index css */
+#login-form {
+  align-self: flex-start;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+
+.login-form-field::placeholder {
+  color: #3a3a3a;
+}
+
+.login-form-field {
+  border: none;
+  border-bottom: 1px solid #3a3a3a;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  outline: none;
+  padding: 0px 0px 5px 5px;
+}
+
+#login-form-submit {
+  width: 100%;
+  padding: 7px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  background-color: #3a3a3a;
+  cursor: pointer;
+  outline: none;
+}
+
+/*Post css */
+
+#post-main-holder {
+  width: 50%;
+  height: 70%;
+  display: grid;
+  justify-items: left;
+  align-items: left;
+  background-color: white;
+  border-radius: 7px;
+  box-shadow: 0px 0px 5px 2px black;
+}
+
+#post {
+	margin-top: 20px;
+	width:75%;
+	margin-left: auto ;
+    margin-right: auto ;
+    height: auto;
+    background-color: white;
+  	border-radius: 7px;
+  	box-shadow: 0px 0px 5px 2px black;
+}
+.post-title{
+	font-size: 36px;
+	margin-bottom:20px;
+}
+.post-desc{
+	font-size: 36px;
+	margin-bottom:10px;
+}
+.post-form-field::placeholder {
+  color: #3a3a3a;
+}
+
+#post-Desc-field{
+  width: 300px;
+  height: 100px;
+}
+
+#post-form-submit {
+  width: 100%;
+  padding: 7px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  background-color: #3a3a3a;
+  cursor: pointer;
+  outline: none;
+}
+.button{
+	width: 100px;
+	height: 15px;
+	align-items: center;
+}
+
+#login-header{
+  justify-items: center;
+  align-items: center;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
